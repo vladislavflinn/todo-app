@@ -1,0 +1,14 @@
+@use "../abstracts/functions" as f;
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: f.rem(16);
+	font-weight: 400;
+
+	color: white;
+	background-color: black;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
