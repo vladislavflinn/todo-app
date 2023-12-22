@@ -11,11 +11,37 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">header</header>
-		<main class="main">
-			
-		</main>
-		<footer class="footer">footer</footer>
+		<div class="todo-app">
+			<div class="todo-app__container">
+				<div class="todo-app__body">
+					<h1 class="todo-app__title">To Do App</h1>
+					<div class="todo-app__form">
+						<label for="todo-input" hidden>Task</label>
+						<input id="todo-input" type="text" placeholder="Your task" class="todo-app__input">
+						<button type="button" class="todo-app__button-add-task">Add Task</button>
+					</div>
+					<div class="todo-app__buttons-bar">
+						<div class="todo-app__buttons">
+							<button type="button" class="todo-app__button-all">All</button>
+							<button type="button" class="todo-app__button-active">Active</button>
+							<button type="button" class="todo-app__button-completed">Completed</button>
+						</div>
+						<div class="todo-app__counter">0 items left</div>
+					</div>
+					<ul class="todo-app__task-list">
+						<li class="todo-app__task-item">
+							<div class="task">
+								<div class="task__text">Walk dog</div>
+								<div class="task__buttons">
+									<button type="button" class="task__button-edit"></button>
+									<button type="button" class="task__button-delete"></button>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 	<script src="js/index.js"></script>
 </body>
